@@ -11,9 +11,6 @@ export default function Home() {
           height={280}
           priority
         />
-        {/* <h1 className="ap-header">
-          Web Designer & Developer
-        </h1> */}
       </main>
       
     </div>
