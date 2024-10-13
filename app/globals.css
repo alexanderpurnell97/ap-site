@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #29335C;
   --foreground: #171717;
 }
 
@@ -24,4 +24,11 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.ap-header {
+  color: #fff;
+  font-size: 36px;
+  font-family: "Jersey 25";
+
 }
