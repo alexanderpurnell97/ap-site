@@ -11,7 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'footer-blue': '#669BBC',
+        'footer-green': "#A8C686",
+        'button-red': "#F44708",
+        'header-green': "#293241"
       },
+      fontFamily: {
+        'jerseyfont':['Jersey 25', 'sans-serif'],
+      }
     },
   },
   plugins: [],
