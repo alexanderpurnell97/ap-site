@@ -1,10 +1,10 @@
 import Image from "next/image";
 import aplogo from "/app/ap-logo.svg";
-import about from "/app/about.svg";
-import experience from "/app/experience.svg";
-import skills from "/app/skills.svg";
-import contact from "/app/contact.svg";
-import cv from "/app/cv-download.svg"; 
+// import about from "/app/about.svg";
+// import experience from "/app/experience.svg";
+// import skills from "/app/skills.svg";
+// import contact from "/app/contact.svg";
+// import cv from "/app/cv-download.svg"; 
 
 
 
