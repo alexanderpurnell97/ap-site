@@ -5,7 +5,7 @@ import aplogo from "/app/ap-logo.svg";
 // import skills from "/app/skills.svg";
 // import contact from "/app/contact.svg";
 // import cv from "/app/cv-download.svg"; 
-
+// import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -13,8 +13,8 @@ export default function Home() {
     <div className="min-h-screen sm:p-16 sm:pt-8">
       
       <main className="flex items-center">
-      {/* <div className="max-h-96 text-white text-center flex flex-col items-center">
-        <div className="mb-4">
+      <div className="max-h-96 text-white text-center flex flex-col items-center">
+        {/* <div className="mb-4">
           <a href="/about">
             <Image
                 src={about}
@@ -28,6 +28,7 @@ export default function Home() {
           
         </div>
         <div className="mb-4">
+        <a href="/experience">
           <Image
               className="mb-1 object-scale-down"
               src={experience}
@@ -36,8 +37,10 @@ export default function Home() {
           <p>
             Experience
           </p>
+        </a>
         </div>
         <div className="mb-4"> 
+        <a href="/skills">
           <Image
               className="mb-1"
               src={skills}
@@ -46,8 +49,10 @@ export default function Home() {
           <p>
             Skills
           </p>
+        </a>
         </div>
         <div className="mb-4">
+        <a href="/contact">
           <Image
               className="mb-1"
               src={contact}
@@ -56,6 +61,7 @@ export default function Home() {
           <p>
             Contact
           </p>
+        </a>
         </div>
         <div className="items-center flex flex-col">
           <Image
@@ -66,8 +72,8 @@ export default function Home() {
           <p>
             CV-Download
           </p>
-        </div>
-      </div> */}
+        </div> */}
+      </div>
 
 
       <div className="m-auto text-center text-white text-lg">
@@ -79,15 +85,15 @@ export default function Home() {
             className="mb-20"
             priority
           />
-
-          <p>Work In Progress - Please check back soon!</p>
       </div>
-        
+
+      
         
       </main>
       {/* <footer className="fixed bottom-0 left-0 w-full h-12 bg-footer-blue p-0">
-        <button className="text-3xl ffont-['Jersey25'] bg-footer-green h-full w-36 text-white rounded-tr-[10px] rounded-br-[10px] shadow">start</button>
+      <Footer />
       </footer> */}
     </div>
+    
   );
 }
