@@ -15,6 +15,8 @@ export default function Home() {
       <main className="flex items-center">
       <div className="max-h-96 text-white text-center flex flex-col items-center">
         {/* <div className="mb-4">
+      <div className="max-h-96 text-white text-center flex flex-col items-center">
+        {/* <div className="mb-4">
           <a href="/about">
             <Image
                 src={about}
@@ -29,6 +31,7 @@ export default function Home() {
         </div>
         <div className="mb-4">
         <a href="/experience">
+        <a href="/experience">
           <Image
               className="mb-1 object-scale-down"
               src={experience}
@@ -38,8 +41,10 @@ export default function Home() {
             Experience
           </p>
         </a>
+        </a>
         </div>
         <div className="mb-4"> 
+        <a href="/skills">
         <a href="/skills">
           <Image
               className="mb-1"
@@ -50,8 +55,10 @@ export default function Home() {
             Skills
           </p>
         </a>
+        </a>
         </div>
         <div className="mb-4">
+        <a href="/contact">
         <a href="/contact">
           <Image
               className="mb-1"
@@ -61,6 +68,7 @@ export default function Home() {
           <p>
             Contact
           </p>
+        </a>
         </a>
         </div>
         <div className="items-center flex flex-col">
