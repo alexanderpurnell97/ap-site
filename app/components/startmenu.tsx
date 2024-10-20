@@ -36,7 +36,7 @@ export default function Dropdown(props: Props) {
                 <div className={` rounded-tr-[10px] absolute bottom-[3.2rem] z-30 w-[250px] min-h-[300px] flex flex-col bg-white ${transClass}`}>
                 {menuItems.map((item) => (
                   <Link
-                    class={item.className}
+                    // className={item.className}
                     key={item.route}
                     className="hover:bg-footer-blue hover:text-white p-4 text-2xl border-b-2"
                     href={item?.route || ''}

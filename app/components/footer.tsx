@@ -18,7 +18,7 @@ const menuItems: MenuItem[] = [
         title: "About",
         route: "/about", 
         id: 1,
-        className: "hover:rounded-tr-[10px] hover:bg-footer-blue hover:text-white p-4 text-2xl border-b-2"
+        // className: "hover:rounded-tr-[10px] hover:bg-footer-blue hover:text-white p-4 text-2xl border-b-2"
         },
         {
         title: "Experience",
