@@ -18,7 +18,17 @@ const config: Config = {
       },
       fontFamily: {
         'jerseyfont':['Jersey 25', 'sans-serif'],
+      },
+      animation: {
+        'imgAnimation': '2s ease 3s 1 normal forwards'
+        },
+      keyframes: {
+        imgAnimation: {
+          '0%': { transform: 'scaleX(0)', transformOrigin: '100% 100%' },
+          '100%': { transform: 'scaleX(1)', transformOrigin: '100% 100%' },
+        }
       }
+
     },
   },
   plugins: [],
