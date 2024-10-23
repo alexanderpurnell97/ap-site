@@ -10,10 +10,6 @@ import cvImage from "/app/cv-download.svg";
 import Footer from "./components/footer";
 import { motion, AnimatePresence } from "framer-motion";
 
-
-
-
-
 export default function Home() {
   return (
     <div className="min-h-screen sm:p-16 sm:pt-8">
@@ -30,11 +26,7 @@ export default function Home() {
                damping: 20,
                delay:1
              }}
-             whileHover={{
-              scale: 1.1,
-              transition: {delay: 0},
-              }}
-              exit={{ transition: { duration: 0 }}}>
+             >
 
             <a href="/about">
               <Image src={aboutImage} alt="About Alexander Purnell" className="mb-1" />
@@ -42,8 +34,6 @@ export default function Home() {
             </a>
             </motion.div>
             </AnimatePresence>
-            
-            
           </div>
           <div className="mb-4">
             <a href="/experience">
