@@ -15,7 +15,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Alex Purnell - Portfolio",
-  description: "Alex Purnell - Portfolio (WIP) - Check back soon!",
+  description: "Alex Purnell - Portfolio",
+  icons: {
+    icon: '../favicons/favicon.png'
+  }
 };
 
 export default function RootLayout({

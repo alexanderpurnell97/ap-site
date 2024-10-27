@@ -11,12 +11,14 @@ import sassLogo from "../logos/sass-logo.svg"
 import typescriptLogo from "../logos/typescript-logo.svg"
 import tailwindLogo from "../logos/tailwind-logo.svg"
 import photoshopLogo from "../logos/photoshop-logo.svg"
+import illustratorLogo from "../logos/illustrator-logo.png"
+import aftereffectsLogo from "../logos/aftereffects-logo.svg"
 
 
 export default function Tools() {
     return (
-        <div className="flex flex-wrap justify-around content-center items-center">
-            <div className="w-1/4 p-3">
+        <div className="p-1 flex flex-wrap justify-around content-center items-center">
+            <div className="lg:w-1/4 w-1/2 p-3">
                 <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -30,7 +32,7 @@ export default function Tools() {
                     <Image src={nextjsLogo} alt="Experience" className="mb-1 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
                 <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -44,7 +46,7 @@ export default function Tools() {
                         <Image src={githubLogo} alt="Experience" className="max-h-24 mb-1 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -58,7 +60,7 @@ export default function Tools() {
                 <Image src={tailwindLogo} alt="Experience" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3 ">
+            <div className="lg:w-1/4 w-1/2 p-3 ">
                 <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -72,7 +74,7 @@ export default function Tools() {
                             <Image src={figmaLogo} alt="Experience" className="max-h-24 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -86,7 +88,7 @@ export default function Tools() {
                             <Image src={htmlLogo} alt="Experience" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -100,7 +102,7 @@ export default function Tools() {
                             <Image src={typescriptLogo} alt="Experience" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -113,9 +115,8 @@ export default function Tools() {
                         >
                            <Image src={sassLogo} alt="Experience" className="mb-1 object-scale-down" />
             </motion.div>
-                
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -127,6 +128,36 @@ export default function Tools() {
                         }}
                         >
                            <Image src={photoshopLogo} alt="Experience" className="mb-1 object-scale-down" />
+            </motion.div>
+                
+            </div>
+            <div className="lg:w-1/4 w-1/2 p-3">
+            <motion.div
+                        initial={{ scale: 0, x: -100, opacity: 0 }}
+                        animate={{ scale: 1, x: 0, opacity: 1}}
+                        transition={{
+                          type: "spring",
+                          bounce: .4,
+                          delay:1.8,
+                          velocity: 2
+                        }}
+                        >
+                           <Image src={aftereffectsLogo} alt="Experience" className="mb-1 object-scale-down" />
+            </motion.div>
+                
+            </div>
+            <div className="lg:w-1/4 w-1/2 p-12 lg:p-2">
+            <motion.div
+                        initial={{ scale: 0, x: -100, opacity: 0 }}
+                        animate={{ scale: 1, x: 0, opacity: 1}}
+                        transition={{
+                          type: "spring",
+                          bounce: .4,
+                          delay:2,
+                          velocity: 2
+                        }}
+                        >
+                           <Image src={illustratorLogo} alt="Experience" className="mb-1 object-scale-down" />
             </motion.div>
                 
             </div>

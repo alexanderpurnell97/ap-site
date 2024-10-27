@@ -6,7 +6,7 @@
 
 
 :root {
-  --background: #29335C;
+  --background: radial-gradient(circle, rgba(41,50,65,1) 0%, rgba(57,181,74,1) 100%);
   --foreground: #171717;
 }
 
@@ -14,6 +14,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  backdrop-filter: blur(50px);
 }
 
 @layer utilities {
@@ -31,4 +32,10 @@ body {
 .footer {
   display: flex;
   background-color: #669BBC;
+}
+
+line {
+  stroke-linecap: round;
+  fill: transparent;
+
 }
