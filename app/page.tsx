@@ -10,7 +10,7 @@ import Skills from "../app/components/skills"
 import { motion } from "framer-motion";
 import githubLogo from "../app/logos/github-logo.svg"
 import linkedInLogo from "../app/linkedin-icon.png"
-import mailIcon from "../mail-icon.png"
+import mailIcon from "../app/mail-icon.png"
 
 export default function About() {
     return (
@@ -61,7 +61,7 @@ export default function About() {
                     }}
                     >
                     <a target="_blank" href="https://www.linkedin.com/in/alexander-purnell-97a2b5ba">
-                    <Image src={linkedInLogo} alt="Experience" className="mb-1  object-scale-down max-w-8" />
+                    <Image src={linkedInLogo} alt="LinkedIn" className="mb-1  object-scale-down max-w-8" />
                     </a> 
                 </motion.div>
                 <motion.div
@@ -71,7 +71,7 @@ export default function About() {
                     }}
                     >
                     <a target="_blank" href="https://github.com/alexanderpurnell97">
-                        <Image src={githubLogo} alt="Experience" className="mb-1    object-scale-down max-w-8" />
+                        <Image src={githubLogo} alt="GitHub" className="mb-1    object-scale-down max-w-8" />
                     </a>
                 </motion.div>
                 <motion.div
@@ -81,7 +81,7 @@ export default function About() {
                     }}
                     >
                         <a target="_blank" href="mailto:alexanderpurnell97@gmail.com">
-                        <Image src={mailIcon} alt="Experience" className="mb-1 object-scale-down max-w-8" />
+                        <Image src={mailIcon} alt="Mail Icon" className="mb-1 object-scale-down max-w-8" />
                     </a>
                     </motion.div>
                     

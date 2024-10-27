@@ -8,7 +8,7 @@ import githubLogo from "../logos/github-logo.svg"
 import htmlLogo from "../logos/html5-logo.svg"
 import nextjsLogo from "../logos/nextjs-logo.svg"
 import sassLogo from "../logos/sass-logo.svg"
-import typescriptLogo from "../logos/typescript-logo.svg"
+import typescriptLogo from "../logos/typescript-logo.png"
 import tailwindLogo from "../logos/tailwind-logo.svg"
 import photoshopLogo from "../logos/photoshop-logo.svg"
 import illustratorLogo from "../logos/illustrator-logo.png"
@@ -29,7 +29,7 @@ export default function Tools() {
                       velocity: 2
                     }}
                     >
-                    <Image src={nextjsLogo} alt="Experience" className="mb-1 object-scale-down" />
+                    <Image src={nextjsLogo} alt="next.js" className="mb-1 object-scale-down" />
                 </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -57,7 +57,7 @@ export default function Tools() {
                       velocity: 2
                     }}
                     >
-                <Image src={tailwindLogo} alt="Experience" className="mb-1 object-scale-down" />
+                <Image src={tailwindLogo} alt="tailwind" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3 ">
@@ -71,7 +71,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                            <Image src={figmaLogo} alt="Experience" className="max-h-24 object-scale-down" />
+                            <Image src={figmaLogo} alt="figma" className="max-h-24 object-scale-down" />
                 </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -85,7 +85,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                            <Image src={htmlLogo} alt="Experience" className="mb-1 object-scale-down" />
+                            <Image src={htmlLogo} alt="html logo" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -99,7 +99,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                            <Image src={typescriptLogo} alt="Experience" className="mb-1 object-scale-down" />
+                            <Image src={typescriptLogo} alt="typescript" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -113,7 +113,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                           <Image src={sassLogo} alt="Experience" className="mb-1 object-scale-down" />
+                           <Image src={sassLogo} alt="sass" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -127,7 +127,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                           <Image src={photoshopLogo} alt="Experience" className="mb-1 object-scale-down" />
+                           <Image src={photoshopLogo} alt="photoshop" className="mb-1 object-scale-down" />
             </motion.div>
                 
             </div>
@@ -142,7 +142,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                           <Image src={aftereffectsLogo} alt="Experience" className="mb-1 object-scale-down" />
+                           <Image src={aftereffectsLogo} alt="aftereffects" className="mb-1 object-scale-down" />
             </motion.div>
                 
             </div>
@@ -157,7 +157,7 @@ export default function Tools() {
                           velocity: 2
                         }}
                         >
-                           <Image src={illustratorLogo} alt="Experience" className="mb-1 object-scale-down" />
+                           <Image src={illustratorLogo} alt="illustrator" className="mb-1 object-scale-down" />
             </motion.div>
                 
             </div>
