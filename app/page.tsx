@@ -25,7 +25,7 @@ export default function About() {
                 <h1 className="lg:text-5xl text-3xl font-bold lg:mb-6 mb-2 font-mono">About me</h1>
                 <p className="mb-2 font-semibold">My name is Alex Purnell and I am a Web Designer and Developer located in Basingstoke, England. Welcome to my website! </p>
                 <p className="mb-2 font-semibold">For the last 3 years, I have been working at the job board website CV-Library, designing, creating and maintaing webpages. For my job, I use SASS, HTML, Git and jQuery, and for my personal work I use next.js, Tailwind CSS, Typescript and Git with Github. As for designing, I use Figma and Photoshop, and I am also skilled in Adobe Illustrator, After Effects and Premier Pro.</p>
-                <p className="font-semibold">In my spare time I  enjoy reading, drinking coffee, playing badminton, hiking and I&apos;m a big music and film nerd. <span className="underline">I'm open for work opportunites, so please don't hesitate to reach out!</span></p>
+                <p className="font-semibold">In my spare time I  enjoy reading, drinking coffee, playing badminton, hiking and I&apos;m a big music and film nerd. <span className="underline">I&apos;m open for work opportunites, so please don&apos;t hesitate to reach out!</span></p>
             </div>
             <div className="p-2 z-0 flex flex-col items-center">
                 <motion.div
