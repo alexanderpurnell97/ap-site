@@ -7,7 +7,7 @@ import aplogoImage from "/app/ap-logo.svg";
 
 export default function Footer() {
     return (
-      <footer className="sm:flex-col sm:text-center flex justify-between items-center p-4 bg-header-green lg:max-w-[90rem] px-20">
+      <footer className="lg:flex-row flex-col text-center lg:text-left flex justify-between items-center p-4 bg-header-green lg:max-w-[90rem] px-20">
         <div className="flex items-center">
           <Image className="w-32" src={aplogoImage} alt="Alex Purnell Logo"></Image>
         </div>
