@@ -10,27 +10,27 @@ const Modal = () => {
             imgHeight: 400 
         },
         {
-            imgName: 'british-gas.png',
+            imgName: 'https://i.imgur.com/8KsOWNx.png',
             imgWidth: 700,
             imgHeight: 400 
         },
         {
-            imgName: 'centrica.png',
+            imgName: 'https://i.imgur.com/OCr8qEp.png',
             imgWidth: 100,
             imgHeight: 400 
         },
         {
-            imgName: 'ee.png',
+            imgName: 'https://i.imgur.com/YEqTm7K.png',
             imgWidth: 100,
             imgHeight: 400 
         },
         {
-            imgName: 'hain-celestial.png',
+            imgName: 'https://i.imgur.com/ttXCDBU.png',
             imgWidth: 100,
             imgHeight: 400 
         },
         {
-            imgName: 'youfibre.png',
+            imgName: 'https://i.imgur.com/g9GaR3d.png',
             imgWidth: 100,
             imgHeight: 400 
         }
@@ -40,7 +40,7 @@ const Modal = () => {
     return (
         <div className="flex flex-wrap justify-center items-start">
         {imageNames.map((imageName) => (
-          <Image src={imageName.imgName} alt={imageName.imgName} key={imageName.imgName} width={200} height={imageName.imgHeight} className="lg:w-1/2 lg:p-4 p-5 w-full" unoptimized/>
+          <Image src={`${imageName.imgName}`} alt={imageName.imgName} key={imageName.imgName} width={200} height={imageName.imgHeight} className="lg:w-1/2 lg:p-4 p-5 w-full" unoptimized/>
         ))}
       </div>
     )
