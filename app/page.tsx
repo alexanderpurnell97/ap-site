@@ -107,9 +107,6 @@ export default function About() {
                 </div>
             </div>
         </div>
-        <div className="text-center text-2xl">
-          <p>This site is a work in progress, check back soon...</p>
-        </div>
 </div>
 <Footer />
 </div>
