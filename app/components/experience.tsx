@@ -15,7 +15,7 @@ export default function Experience() {
     const dialogRef = useRef<HTMLDialogElement | null>(null);
 
     return (
-        <div className="max-h-[425px] overflow-scroll pr-[.7rem]">
+        <div className="max-h-[425px] overflow-y-scroll pr-[.7rem]">
             <div className="bg-blue-950 bg-opacity-40 p-4 rounded-xl shadow-lg mb-3">
             <h3 className="text-2xl font-bold mb-2 font-mono">CV-Library - Website</h3>
             <div className="mb-2">

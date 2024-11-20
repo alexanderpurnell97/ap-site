@@ -94,13 +94,13 @@ export default function About() {
     </div>
     
     <div className="lg:flex lg:flex-auto lg:justify-between">
-            <div className="m-4 bg-slate-300 backdrop-blur-3xl bg-opacity-30 rounded-xl lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] max-h-[560px]">
+            <div className="m-4 bg-slate-300 backdrop-blur-3xl bg-opacity-30 rounded-xl lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] max-h-[570px]">
                 <div>
                     <h2 className="text-3xl font-bold font-mono mb-4">Experience</h2>
                     <Experience />
                 </div>
             </div>
-            <div className="m-4 bg-slate-300 rounded-xl backdrop-blur-3xl bg-opacity-30 lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] ">
+            <div className="m-4 bg-slate-300 rounded-xl backdrop-blur-3xl bg-opacity-30 lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] lg:max-h-[570px]">
             <div>
                     <h2 className="text-3xl font-bold font-mono">Tech/Software</h2>
                     <Tools />
