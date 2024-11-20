@@ -34,8 +34,12 @@ body {
   background-color: #669BBC;
 }
 
-line {
-  stroke-linecap: round;
-  fill: transparent;
+.rotate {
+  transform: rotate(180deg);
+  transition: transform 300ms ease-out;
+}
 
+.rotate-reverse {
+  transform: rotate(0deg);
+  transition: transform 300ms ease-out;
 }

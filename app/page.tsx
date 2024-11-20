@@ -6,7 +6,7 @@ import Header from "../app/components/header";
 import Image from "next/image";
 import aboutMeImage from "../app/aboutme-img.png"
 import Tools from "../app/components/tools"
-import Skills from "../app/components/skills"
+import Experience from "../app/components/experience"
 import { motion } from "framer-motion";
 import githubLogo from "../app/logos/github-logo.svg"
 import linkedInLogo from "../app/linkedin-icon.png"
@@ -22,10 +22,10 @@ export default function About() {
     <div className="bg-slate-300 backdrop-blur-3xl bg-opacity-30 m-4 lg:mt-[4rem] mb-[.2rem] p-5 lg:p-10 rounded-xl shadow-lg">
         <div className="lg:flex lg:flex-auto lg:justify-between items-center">
             <div className="lg:w-3/4 lg:pr-20 mb-2">
-                <h1 className="lg:text-5xl text-3xl font-bold lg:mb-6 mb-2 font-mono">About me</h1>
-                <p className="mb-2 font-semibold">My name is Alex Purnell and I am a Web Designer and Developer located in Basingstoke, England. Welcome to my website! </p>
-                <p className="mb-2 font-semibold">For the last 3 years, I have been working at the job board website CV-Library, designing, creating and maintaing webpages. For my job, I use SASS, HTML, Git and jQuery, and for my personal work I use next.js, Tailwind CSS, Typescript and Git with Github. As for designing, I use Figma and Photoshop, and I am also skilled in Adobe Illustrator, After Effects and Premier Pro.</p>
-                <p className="font-semibold">In my spare time I  enjoy reading, drinking coffee, playing badminton, hiking and I&apos;m a big music and film nerd. <span className="underline">I&apos;m open for work opportunites, so please don&apos;t hesitate to reach out!</span></p>
+                <h1 className="lg:text-5xl text-3xl font-bold lg:mb-6 mb-2 font-mono">Alex Purnell - Front End Developer &amp; Designer</h1>
+                <p className="mb-2 font-semibold">My name is Alex Purnell and I am a Web Designer and Developer located in Basingstoke, England. </p>
+                <p className="mb-2 font-semibold">For the last 3 years I have been working at the job board website CV-Library, designing, creating and maintaining webpages. For my job, I use SASS, HTML, Git and jQuery, and for my personal work I use React, Tailwind CSS, Typescript and Git with Github. As for designing, I use Figma and Photoshop, and I am also skilled in Adobe Illustrator, After Effects and Premier Pro.</p>
+                <p className="font-semibold">In my spare time I  enjoy reading, drinking coffee, playing badminton, hiking and I&apos;m a big music and film nerd.</p>
             </div>
             <div className="p-2 z-0 flex flex-col items-center">
                 <motion.div
@@ -38,9 +38,8 @@ export default function About() {
                       velocity: 2
                     }}
                     >
-                    <Image className="lg:w-[300px] rounded-2xl shadow-2xl" src={aboutMeImage} alt="Picture of me"/>
+                    <Image className="lg:w-[300px]  rounded-3xl bg-opacity-60 shadow-2xl" src={aboutMeImage} alt="Picture of me"/>
                 </motion.div>
-
                 <motion.div
                     className="w-2/3 flex justify-center"
                     initial={{ y: -10, opacity: 0 }}
@@ -95,13 +94,13 @@ export default function About() {
     </div>
     
     <div className="lg:flex lg:flex-auto lg:justify-between">
-            <div className="m-4 bg-slate-300 backdrop-blur-3xl bg-opacity-30 rounded-xl lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%]">
+            <div className="m-4 bg-slate-300 backdrop-blur-3xl bg-opacity-30 rounded-xl lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] max-h-[560px]">
                 <div>
-                    <h2 className="text-3xl font-bold font-mono">Skills</h2>
-                    <Skills />
+                    <h2 className="text-3xl font-bold font-mono mb-4">Experience</h2>
+                    <Experience />
                 </div>
             </div>
-            <div className="m-4 bg-slate-300 rounded-xl backdrop-blur-3xl bg-opacity-30 lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%]">
+            <div className="m-4 bg-slate-300 rounded-xl backdrop-blur-3xl bg-opacity-30 lg:my-[2rem] p-5 lg:p-10 shadow-lg lg:w-[49%] ">
             <div>
                     <h2 className="text-3xl font-bold font-mono">Tech/Software</h2>
                     <Tools />

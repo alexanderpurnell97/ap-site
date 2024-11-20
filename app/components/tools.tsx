@@ -1,8 +1,8 @@
 'use client'
 
 import React from "react";
-import Image from "next/image";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import figmaLogo from "../logos/figma-logo.svg"
 import githubLogo from "../logos/github-logo.svg"
 import htmlLogo from "../logos/html5-logo.svg"
@@ -13,10 +13,13 @@ import tailwindLogo from "../logos/tailwind-logo.svg"
 import photoshopLogo from "../logos/photoshop-logo.svg"
 import illustratorLogo from "../logos/illustrator-logo.png"
 import aftereffectsLogo from "../logos/aftereffects-logo.svg"
+import reactLogo from "../logos/react-icon.svg"
+import { div } from "framer-motion/client";
 
 
 export default function Tools() {
     return (
+      <div>
         <div className="p-1 flex flex-wrap justify-around content-center items-center">
             <div className="lg:w-1/4 w-1/2 p-3">
                 <motion.div
@@ -30,6 +33,20 @@ export default function Tools() {
                     }}
                     >
                     <Image src={nextjsLogo} alt="next.js" className="mb-1 object-scale-down" />
+                </motion.div>
+            </div>
+            <div className="lg:w-1/4 w-1/2 p-3">
+                <motion.div
+                    initial={{ scale: 0, x: -100, opacity: 0 }}
+                    animate={{ scale: 1, x: 0, opacity: 1}}
+                    transition={{
+                      type: "spring",
+                      bounce: .4,
+                      delay:.2,
+                      velocity: 2
+                    }}
+                    >
+                    <Image src={reactLogo} alt="react" className="mb-1 h-[7rem] w-[7rem]" />
                 </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
@@ -59,20 +76,6 @@ export default function Tools() {
                     >
                 <Image src={tailwindLogo} alt="tailwind" className="mb-1 object-scale-down" />
             </motion.div>
-            </div>
-            <div className="lg:w-1/4 w-1/2 p-3 ">
-                <motion.div
-                        initial={{ scale: 0, x: -100, opacity: 0 }}
-                        animate={{ scale: 1, x: 0, opacity: 1}}
-                        transition={{
-                          type: "spring",
-                          bounce: .4,
-                          delay:.8,
-                          velocity: 2
-                        }}
-                        >
-                            <Image src={figmaLogo} alt="figma" className="max-h-24 object-scale-down" />
-                </motion.div>
             </div>
             <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
@@ -116,6 +119,25 @@ export default function Tools() {
                            <Image src={sassLogo} alt="sass" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
+          
+          </div>
+
+          <h2 className="text-2xl font-bold font-mono">Design</h2>
+          <div className="p-1 flex flex-wrap justify-around content-center items-center">
+            <div className="lg:w-1/4 w-1/2 p-3 ">
+                <motion.div
+                        initial={{ scale: 0, x: -100, opacity: 0 }}
+                        animate={{ scale: 1, x: 0, opacity: 1}}
+                        transition={{
+                          type: "spring",
+                          bounce: .4,
+                          delay:.8,
+                          velocity: 2
+                        }}
+                        >
+                            <Image src={figmaLogo} alt="figma" className="max-h-24 object-scale-down" />
+                </motion.div>
+            </div>
             <div className="lg:w-1/4 w-1/2 p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
@@ -144,7 +166,7 @@ export default function Tools() {
                         >
                            <Image src={aftereffectsLogo} alt="aftereffects" className="mb-1 object-scale-down" />
             </motion.div>
-                
+
             </div>
             <div className="lg:w-1/4 w-1/2 p-12 lg:p-2">
             <motion.div
@@ -159,9 +181,9 @@ export default function Tools() {
                         >
                            <Image src={illustratorLogo} alt="illustrator" className="mb-1 object-scale-down" />
             </motion.div>
-                
             </div>
         </div>
+      </div>
 
 
     )
