@@ -5,7 +5,7 @@ const Modal = () => {
 
     const imageNames = [
         {
-            imgName: 'barchester-healthcare-ltd.png',
+            imgName: 'https://i.imgur.com/tQutNNz.png',
             imgWidth: 200,
             imgHeight: 400 
         },
@@ -40,7 +40,7 @@ const Modal = () => {
     return (
         <div className="flex flex-wrap justify-center items-start">
         {imageNames.map((imageName) => (
-          <Image src={`/products/${imageName.imgName}`} alt={imageName.imgName} key={imageName.imgName} width={200} height={imageName.imgHeight} className="lg:w-1/2 lg:p-4 p-5 w-full" />
+          <Image src={imageName.imgName} alt={imageName.imgName} key={imageName.imgName} width={200} height={imageName.imgHeight} className="lg:w-1/2 lg:p-4 p-5 w-full" unoptimized/>
         ))}
       </div>
     )
