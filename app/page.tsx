@@ -22,9 +22,9 @@ export default function About() {
     <div className="bg-slate-300 backdrop-blur-3xl bg-opacity-30 m-4 lg:mt-[4rem] mb-[.2rem] p-5 lg:p-10 rounded-xl shadow-lg">
         <div className="lg:flex lg:flex-auto lg:justify-between items-center">
             <div className="lg:w-3/4 lg:pr-20 mb-2">
-                <h1 className="lg:text-5xl text-3xl font-bold lg:mb-6 mb-2 font-mono">Alex Purnell - Front End Developer &amp; Designer</h1>
-                <p className="mb-2 font-semibold">My name is Alex Purnell and I am a Web Designer and Developer located in Basingstoke, England. </p>
-                <p className="mb-2 font-semibold">For the last 3 years I have been working at the job board website CV-Library, designing, creating and maintaining webpages. For my job, I use SASS, HTML, Git and jQuery, and for my personal work I use React, Tailwind CSS, Typescript and Git with Github. As for designing, I use Figma and Photoshop, and I am also skilled in Adobe Illustrator, After Effects and Premier Pro.</p>
+                <h1 className="text-2xl font-bold lg:mb-3 mb-2 font-mono">Alex Purnell - Front End Developer &amp; Designer</h1>
+                <p className="mb-2 font-semibold">My name is Alex Purnell and I am a Front End Developer &amp; Designer located in Basingstoke, England. </p>
+                <p className="mb-2 font-semibold">For the past three years, I have been working at the job board website CV-Library, where I design, create, and maintain webpages. In my role, I use SASS, HTML, Git, and jQuery, while for personal projects, I work with React, Tailwind CSS, TypeScript, and Git with GitHub. For design work, I primarily use Figma and Photoshop, and I am also skilled in Adobe Illustrator, After Effects, and Premiere Pro.</p>
                 <p className="font-semibold">In my spare time I  enjoy reading, drinking coffee, playing badminton, hiking and I&apos;m a big music and film nerd.</p>
             </div>
             <div className="p-2 z-0 flex flex-col items-center">

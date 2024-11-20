@@ -27,7 +27,7 @@ export default function Experience() {
                     <p>HTML, SASS, JavaScript (jQuery), Perl (TemplateToolkit), Jira, Gerrit, Figma, Adobe XD, Photoshop, Git.</p>
                 </div>
                 <div className="flex items-center">
-                    <button onClick={() => setShow(!show)} className="text-xl font-bold font-mono">Examples</button> 
+                    <button onClick={() => setShow(!show)} className="text-xl font-bold font-mono underline">Examples</button> 
                     <Image className={`w-4 h-4 ml-1 ${show ? 'rotate' : 'rotate-reverse'}`} src={arrow} alt="Picture of me" />              
                 </div>
 
@@ -50,7 +50,7 @@ export default function Experience() {
                 <div className="mb-2">
                     <p>Figma, Adobe Photoshop, Adobe XD, HTML, CSS, JavaScript, phpMyAdmin, Perl (TemplateToolkit). </p>
                 </div>
-            <button onClick={() => dialogRef.current?.showModal()} className="text-xl font-bold mb-2 font-mono">Examples</button>
+            <button onClick={() => dialogRef.current?.showModal()} className="text-xl font-bold mb-2 font-mono underline">Examples</button>
             <div className="mb-2">
                 <dialog className="h-5/6 w-5/6 bg-slate-300 backdrop-blur-2xl bg-opacity-30 rounded-xl shadow-lg p-5" ref={dialogRef}>
                     <span className="sr-only">Close</span>

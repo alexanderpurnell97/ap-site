@@ -42,7 +42,7 @@ export default function Tools() {
                     transition={{
                       type: "spring",
                       bounce: .4,
-                      delay:.2,
+                      delay:.4,
                       velocity: 2
                     }}
                     >
@@ -56,7 +56,7 @@ export default function Tools() {
                     transition={{
                       type: "spring",
                       bounce: .4,
-                      delay:.4,
+                      delay:.6,
                       velocity: 2
                     }}
                     >
@@ -70,7 +70,7 @@ export default function Tools() {
                     transition={{
                       type: "spring",
                       bounce: .4,
-                      delay:.6,
+                      delay:.8,
                       velocity: 2
                     }}
                     >
@@ -131,7 +131,7 @@ export default function Tools() {
                         transition={{
                           type: "spring",
                           bounce: .4,
-                          delay:.8,
+                          delay:1.6,
                           velocity: 2
                         }}
                         >
@@ -145,7 +145,7 @@ export default function Tools() {
                         transition={{
                           type: "spring",
                           bounce: .4,
-                          delay:1.6,
+                          delay:1.8,
                           velocity: 2
                         }}
                         >
@@ -160,7 +160,7 @@ export default function Tools() {
                         transition={{
                           type: "spring",
                           bounce: .4,
-                          delay:1.8,
+                          delay:2,
                           velocity: 2
                         }}
                         >
@@ -168,18 +168,18 @@ export default function Tools() {
             </motion.div>
 
             </div>
-            <div className="lg:w-1/4 w-1/2 p-12 lg:p-2">
+            <div className="lg:w-1/4 w-1/2 lg:p-2 p-[.6rem]">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
                         transition={{
                           type: "spring",
                           bounce: .4,
-                          delay:2,
+                          delay:2.2,
                           velocity: 2
                         }}
                         >
-                           <Image src={illustratorLogo} alt="illustrator" className="mb-1 object-scale-down" />
+                           <Image src={illustratorLogo} alt="illustrator" className="mb-1 object-scale-down " />
             </motion.div>
             </div>
         </div>
