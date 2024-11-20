@@ -2,7 +2,6 @@
 
 
 import Image from  "next/image";
-import { div, p } from "framer-motion/client";
 import React, { useState, useRef } from 'react'
 import arrow from "../arrow.png";
 import Exit from "../exit.svg";

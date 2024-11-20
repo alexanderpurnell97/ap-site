@@ -14,7 +14,6 @@ import photoshopLogo from "../logos/photoshop-logo.svg"
 import illustratorLogo from "../logos/illustrator-logo.png"
 import aftereffectsLogo from "../logos/aftereffects-logo.svg"
 import reactLogo from "../logos/react-icon.svg"
-import { div } from "framer-motion/client";
 
 
 export default function Tools() {
