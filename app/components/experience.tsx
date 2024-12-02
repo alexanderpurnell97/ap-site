@@ -32,6 +32,7 @@ export default function Experience() {
 
             {show && (
                 <div className="mb-2 flex flex-col underline">
+                    <a target="_blank" href="https://www.cv-library.co.uk/about/timeline">Timeline</a>
                     <a target="_blank" href="https://www.cv-library.co.uk/about">About</a>
                     <a target="_blank" href="https://www.cv-library.co.uk/work-for-us">Work for us</a>
                     <a target="_blank" href="https://www.cv-library.co.uk">Homepage hero and search section</a>
