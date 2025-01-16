@@ -20,7 +20,7 @@ export default function Tools() {
     return (
       <div>
         <div className="p-1 flex flex-wrap justify-around content-center items-center">
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
                 <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -34,7 +34,7 @@ export default function Tools() {
                     <Image src={nextjsLogo} alt="next.js" className="mb-1 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
                 <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -48,7 +48,7 @@ export default function Tools() {
                     <Image src={reactLogo} alt="react" className="mb-1 h-[7rem] w-[7rem]" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
                 <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -62,7 +62,7 @@ export default function Tools() {
                         <Image src={githubLogo} alt="Experience" className="max-h-24 mb-1 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[15%] p-3">
             <motion.div
                     initial={{ scale: 0, x: -100, opacity: 0 }}
                     animate={{ scale: 1, x: 0, opacity: 1}}
@@ -76,7 +76,7 @@ export default function Tools() {
                 <Image src={tailwindLogo} alt="tailwind" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -90,7 +90,7 @@ export default function Tools() {
                             <Image src={htmlLogo} alt="html logo" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -104,7 +104,7 @@ export default function Tools() {
                             <Image src={typescriptLogo} alt="typescript" className="mb-1 object-scale-down" />
             </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -123,7 +123,7 @@ export default function Tools() {
 
           <h2 className="text-2xl font-bold font-mono">Design</h2>
           <div className="p-1 flex flex-wrap justify-around content-center items-center">
-            <div className="w-1/4 p-3 ">
+            <div className="lg:w-[10%] w-[50%] p-3 ">
                 <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -137,7 +137,7 @@ export default function Tools() {
                             <Image src={figmaLogo} alt="figma" className="max-h-24 object-scale-down" />
                 </motion.div>
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -152,7 +152,7 @@ export default function Tools() {
             </motion.div>
                 
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}
@@ -167,7 +167,7 @@ export default function Tools() {
             </motion.div>
 
             </div>
-            <div className="w-1/4 p-3">
+            <div className="lg:w-[10%] w-[50%] p-3">
             <motion.div
                         initial={{ scale: 0, x: -100, opacity: 0 }}
                         animate={{ scale: 1, x: 0, opacity: 1}}

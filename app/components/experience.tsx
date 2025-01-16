@@ -44,7 +44,7 @@ export default function Experience() {
         <div className="bg-blue-950 bg-opacity-40 p-4 rounded-xl shadow-lg">
             <h3 className="text-2xl font-bold mb-2 font-mono">CV-Library - Products</h3>
             <div className="mb-2">
-                <p>During my time at CV-Library, I designed, prototyped and developed products for variaous clients. These included bespoke branding on job adverts and company profiles, as well as targeted advertisements for the CV-Library site.</p>
+                <p>During my time at CV-Library, I designed, prototyped and developed products for various clients. These included bespoke branding on job adverts and company profiles, as well as targeted advertisements for the CV-Library site.</p>
             </div>
             <h4 className="text-xl font-bold mb-2 font-mono">The technologies I worked with</h4>
                 <div className="mb-2">
