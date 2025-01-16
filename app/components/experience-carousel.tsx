@@ -31,11 +31,11 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             exampleCopy: 'Over three years, I was tasked with updating and maintaining web pages for the CV-Library site. The site has approximately 4.3 unique monthly visitors. My main area of focus was on user facing pages.',
             exampleTech: 'HTML, SASS, JavaScript (jQuery), Perl (TemplateToolkit), Jira, Gerrit, Figma, Adobe XD, Photoshop, Git.',
             linkTitle: 'Links to examples',
-            linkATitle: 'CV-Library Homepage,',
+            linkATitle: 'CV-Library Homepage',
             linkALink: 'https://www.cv-library.co.uk/',
-            linkBTitle: 'Timeline,',
+            linkBTitle: 'Timeline',
             linkBLink: 'https://www.cv-library.co.uk/about/timeline',
-            linkCTitle: 'Work for Us,',
+            linkCTitle: 'Work for Us',
             linkCLink: 'https://www.cv-library.co.uk/work-for-us',
             linkDTitle: 'About',
             linkDLink: 'https://www.cv-library.co.uk/about',
@@ -102,15 +102,15 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                                 <p>{`${examples.exampleTech}`}</p>
                                 <h3 className="text-2xl mt-3">{`${examples.linkTitle  || ''}`}</h3>
                                 <div className={`${examples?.linkStyle || ''}`}>
-                                    <a className="mr-1 sm:mb-2 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
+                                    <a className="mr-1 mb-2 lg:mb-0 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
                                        target="_blank" href={`${examples.linkALink}`}>{`${examples.linkATitle || ''}`}</a>
-                                    <a className="mr-1 sm:mb-2 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
+                                    <a className="mr-1 mb-2 lg:mb-0 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
                                        target="_blank" href={`${examples.linkBLink}`}>{`${examples.linkBTitle || ''}`}</a>
                                     <div className={`${examples.linkStyleB}`}>
-                                        <a className="mr-1 sm:mb-2 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
+                                        <a className="mr-1 mb-2 lg:mb-0 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
                                            target="_blank"
                                            href={`${examples.linkCLink}`}>{`${examples.linkCTitle || ''}`}</a>
-                                        <a className="mr-1 sm:mb-2 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
+                                        <a className="mr-1 mb-2 lg:mb-0 bg-blue-950 bg-opacity-40 p-2 rounded-xl shadow-lg"
                                            target="_blank"
                                            href={`${examples.linkDLink}`}>{`${examples.linkDTitle || ''}`}</a>
                                     </div>
