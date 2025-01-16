@@ -5,7 +5,6 @@ import Footer from "../app/components/footer";
 import Header from "../app/components/header";
 import Tools from "../app/components/tools"
 import AboutMe from "../app/components/about"
-import Experience from "../app/components/experience"
 import EmblaCarousel from "../app/components/experience-carousel";
 import {EmblaOptionsType} from "embla-carousel";
 
