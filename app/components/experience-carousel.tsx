@@ -50,6 +50,19 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
             linkStyle: 'hidden',
         },
         {
+            exampleTitle: 'Shoestring - Design (WIP)',
+            exampleImage: 'https://i.imgur.com/uWg8ELh.png',
+            exampleCopy: 'Designed the Shoestring homepage, a mock-up site for budget backpackers featuring curated tours, hostels, and flights. The design includes interactive carousels for easy navigation and highlights affordable travel options.',
+            exampleTech: 'Figma, Adobe Photoshop.',
+            linkTitle: 'Links to examples',
+            linkATitle: 'Design file',
+            linkALink: 'https://www.figma.com/design/8VrUKHItLe4KsZMW9z13ic/Shoestring?node-id=0-1&t=LJHJsLaBhJQYCPZ1-1',
+            linkBTitle: 'Prototype',
+            linkBLink: 'https://www.figma.com/proto/8VrUKHItLe4KsZMW9z13ic/Shoestring?page-id=59%3A809&node-id=59-810&viewport=604%2C184%2C0.1&t=2S2sOIBv1go7fV54-1&scaling=min-zoom&content-scaling=fixed',
+            linkStyle: 'flex lg:flex-row flex-col',
+            linkStyleB: 'hidden'
+        },
+        {
             exampleTitle: 'Guildford Pyre hot sauce - Design',
             exampleImage: 'https://i.imgur.com/4JsBI2U.png',
             exampleTech: 'Figma, Adobe Photoshop.',
